@@ -58,7 +58,7 @@ export var auto_alpha_gradient: bool = true
 
 ##### NOTIFICATIONS #####
 
-func _init():
+func _ready():
 	set_as_toplevel(true)
 	global_position = Vector2()
 	global_rotation = 0
